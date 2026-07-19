@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { LoginPage } from "../pages/LoginPage";
 import { InventoryPage } from "../pages/InventoryPage";
-import { CartPage } from "../pages/cartPage";
+import { CartPage } from '../pages/CartPage';
 
 test.describe("SauceDemo Cart", () => {
     let inventoryPage: InventoryPage;
